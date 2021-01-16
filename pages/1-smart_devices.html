@@ -59,13 +59,19 @@
 
   <!-- Intro -->
   <div class="container">
+    
     <h1 class="text-primary text-center">Smart devices</h1>
     <h5 class="text-info text-center">Supervized by Jérémie Grisolia</h5>
-    <h5>
-      This module objective is to complete a thorough process and be able to design 
-      and build a smart device based on the combination of a gas sensor and an electronic 
-      card to communicate data over a low speed network.
-    </h5>
+    <div class="row">
+      <div class="col"></div>
+      <div class="col-6">
+        <h6 class="text-center">
+          This module objective is to complete a thorough process and be able to design and build a smart device based 
+          on the combination of a gas sensor and an electronic card to communicate data over a low speed network.
+        </h6>
+      </div>
+      <div class="col"></div>
+    </div>
   </div>
 
   <!-- Nav tabs -->
@@ -86,17 +92,30 @@
     </ul>
 
     <!-- Tab panes -->
-    <div class="tab-content">
+    <div class="tab-content mt-5">
+      <!-- Descriptive part -->
       <div class="tab-pane active" id="dpart" role="tabpanel" aria-labelledby="dpart-tab">
         <div class="container">
-          ...
+          <p class="h5 text-justify">
+            As an ISS engineer, it is very important to understand how a smart device works at a low-level. In this way, this course is divided in three parts. The first is the complete creation of a gas sensor from a silicon wafer and using the microprocessor manufacturing methods.
+            The second one is to study the analog electronic part of a smart device. In the case of the gas sensor, the goal is to manage the resistance values to keep only useful information.
+            Finally, the third part represent the data exchange of the smart device and its ability to send measurement over a network.
+          </p>
         </div>
       </div>
+      <!-- Technical part -->
       <div class="tab-pane" id="tpart" role="tabpanel" aria-labelledby="tpart-tab">
         <div class="container">
-          ...
+          <h5 class="text-primary text-justify"><strong>Gas sensor creation</strong></h5>
+            <p class="h5 ml-2 text-justify">
+              The gas sensor manufacturing is based on the microprocessor’s creation method. It starts from a silicon wafer on which we need to deposit each material on the entire plate [image]. For every material we keep only the necessary surface by removing the rest using chemical attacks.
+              The second manipulation is to put the nano-sensor on a support and weld its terminal to the support’s connectors. As each cable is as thick as a hair, we use ultrasonic welding methods [image].
+              The next step is to chemically create conductive tungsten nanoparticles in order to stick them on the aluminium component to create the resistance [image].
+              The last part is to create the sensor datasheet after realizing calibration measurement before being able to distribute the sensor.
+            </p>
         </div>
       </div>
+      <!-- Analytic part -->
       <div class="tab-pane" id="apart" role="tabpanel" aria-labelledby="apart-tab">
         <div class="container">
           ...
