@@ -59,47 +59,93 @@
 
   <!-- Intro -->
   <div class="container">
+    
     <h1 class="text-primary text-center">Communication</h1>
     <h5 class="text-info text-center">Supervized by Daniela Dragomirescu</h5>
-    <h5>
-      IoT and its innovations relies on major strands as power saving, security and also flexibility.
-      This course gather aknowledge about energy applied for IoT, network protocols and typologies but also 
-      technologies as 6G in order to be able to design a complete network according to a specification.
-    </h5>
+    <div class="row">
+      <div class="col"></div>
+      <div class="col-6">
+        <h6 class="text-center">
+          IoT and its innovations relies on major strands as power saving, security and also flexibility. This course gathers skills about energy applied for IoT, network protocols and typologies but also technologies as 6G in order to be able to design a complete network according to a specification.
+        </h6>
+      </div>
+      <div class="col"></div>
+    </div>
   </div>
 
   <!-- Nav tabs -->
   <div class="container-lg">
     <ul class="nav nav-tabs justify-content-center" id="myTab" role="tablist">
       <li class="nav-item">
-        <a class="nav-link active" id="dpart-tab" data-toggle="tab" href="#home" role="tab" aria-controls="dpart"
+        <a class="nav-link active" id="dpart-tab" data-toggle="tab" href="#dpart" role="tab" aria-controls="dpart"
           aria-selected="true">Desriptive part</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" id="tpart-tab" data-toggle="tab" href="#profile" role="tab" aria-controls="tpart"
+        <a class="nav-link" id="tpart-tab" data-toggle="tab" href="#tpart" role="tab" aria-controls="tpart"
           aria-selected="false">Technical part</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" id="apart-tab" data-toggle="tab" href="#messages" role="tab" aria-controls="apart"
+        <a class="nav-link" id="apart-tab" data-toggle="tab" href="#apart" role="tab" aria-controls="apart"
           aria-selected="false">Analytic part</a>
       </li>
     </ul>
 
     <!-- Tab panes -->
-    <div class="tab-content">
+    <div class="tab-content mt-5">
+      <!-- Descriptive part -->
       <div class="tab-pane active" id="dpart" role="tabpanel" aria-labelledby="dpart-tab">
         <div class="container">
-          ...
+          <p class="h5 text-justify">
+            This course is composed of four parts and its purpose is to acquire proficiency about networks and technologies developed to support the IoT innovation.<br>
+            The two first parts gather explanations about wireless communication channels and useful protocols to IoT systems.<br>
+            The second part propose a general overview of the IoT evolution over the Internet area and a summary of different innovative IoT technologies.<br>
+            The last part gives information about energy in IoT systems, in particular electrical energy storage and ambient energy harvesting.<br>
+          </p>
         </div>
       </div>
+      <!-- Technical part -->
       <div class="tab-pane" id="tpart" role="tabpanel" aria-labelledby="tpart-tab">
+        <!-- Wireless sensor network -->
         <div class="container">
-          ...
+          <h5 class="text-primary text-justify"><strong>Wireless sensor network</strong></h5>
+          <p class="h5 ml-2 text-justify">
+            The WSN practical part is composed of two assessment which purpose are to gather information regarding Narrowband IoT (in my case) and synthetize about all the MAC protocols used in wireless sensor network regarding functionalities, security and power consumption.
+          </p>
         </div>
+        <!-- From 3G to 6G -->
+        <div class="container">
+          <h5 class="text-primary text-justify"><strong>From 3G to 6G</strong></h5>
+          <p class="h5 ml-2 text-justify">
+            This practical part’s purpose was to introduce different technologies related to 5G innovation. I did research on the Vehicle-to-Everything technology which a way to allow communication between vehicles, infrastructures, networks and others road users in order to improve safety and traffic fluidity.
+          </p>
+        </div>
+        <!-- Protocols for IoT -->
+        <div class="container">
+          <h5 class="text-primary text-justify"><strong>Protocols for IoT</strong></h5>
+          <p class="h5 ml-2 text-justify">
+            Those practical sessions have for goal the understanding of signal-processing theory in order to implement solutions. Moreover, study tools as USRP and SDR and detailing applications. At the end we utilize the tools to imagine and implement applications.
+          </p>
+        </div> 
+        <!-- Emerging network -->
+        <div class="container">
+          <h5 class="text-primary text-justify"><strong>Emerging network</strong></h5>
+          <p class="h5 ml-2 text-justify">
+            In those sessions we try to master the functioning of an SDN/Open flow network by these following steps:
+            <ul>
+              <li class="h5 ml-2 text-justify">Set up of an OVS bridge instance and functionality tests</li>
+              <li class="h5 ml-2 text-justify">Manual rules defining on Openflow switches</li>
+              <li class="h5 ml-2 text-justify">“In-band” and “out-band” modes detailing to attach controller to Openflow switches</li>
+              <li class="h5 ml-2 text-justify">Demonstration of different applications in order to program and control the network</li>
+            </ul>
+          </p>
+        </div>   
       </div>
+      <!-- Analytic part -->
       <div class="tab-pane" id="apart" role="tabpanel" aria-labelledby="apart-tab">
         <div class="container">
-          ...
+          <p class="h5 text-justify">
+            This module composed an important technical part of the Innovative Smart System program. It illustrates different technics and protocols in order to manage the Internet of Things in the best way. Moreover, it proposes a good history starting from the first versions of telecommunications to the actual 4G and future innovations such as the debatable incoming 5G and the probable 6G evolution.  
+          </p>
         </div>
       </div>
     </div>

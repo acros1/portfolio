@@ -97,14 +97,15 @@
       <div class="tab-pane active" id="dpart" role="tabpanel" aria-labelledby="dpart-tab">
         <div class="container">
           <p class="h5 text-justify">
-            As an ISS engineer, it is very important to understand how a smart device works at a low-level. In this way, this course is divided in three parts. The first is the complete creation of a gas sensor from a silicon wafer and using the microprocessor manufacturing methods.
-            The second one is to study the analog electronic part of a smart device. In the case of the gas sensor, the goal is to manage the resistance values to keep only useful information.
+            As an ISS engineer, it is very important to understand how a smart device works at a low-level. In this way, this course is divided in three parts. The first is the complete creation of a gas sensor from a silicon wafer and using the microprocessor manufacturing methods.<br>
+            The second one is to study the analog electronic part of a smart device. In the case of the gas sensor, the goal is to manage the resistance values to keep only useful information.<br>
             Finally, the third part represent the data exchange of the smart device and its ability to send measurement over a network.
           </p>
         </div>
       </div>
       <!-- Technical part -->
       <div class="tab-pane" id="tpart" role="tabpanel" aria-labelledby="tpart-tab">
+        <!-- Gas sensor creation -->
         <div class="container">
           <h5 class="text-primary text-justify"><strong>Gas sensor creation</strong></h5>
           <p class="h5 ml-2 text-justify">
@@ -145,20 +146,48 @@
               </div>
             </div>
           </div>
-          <!--
+          <!-- Analog electronic analysis -->
+          <div class="container">
+            <h5 class="text-primary text-justify"><strong>Analog electronic analysis</strong></h5>
             <p class="h5 ml-2 text-justify">
-              The gas sensor manufacturing is based on the microprocessor’s creation method. It starts from a silicon wafer on which we need to deposit each material on the entire plate [image]. For every material we keep only the necessary surface by removing the rest using chemical attacks.
-              The second manipulation is to put the nano-sensor on a support and weld its terminal to the support’s connectors. As each cable is as thick as a hair, we use ultrasonic welding methods [image].
-              The next step is to chemically create conductive tungsten nanoparticles in order to stick them on the aluminium component to create the resistance [image].
-              The last part is to create the sensor datasheet after realizing calibration measurement before being able to distribute the sensor.
+              In this part we used LTSpice software in order to simulate the entire analog electronic part of the smart device module (cf Fig. 4).
             </p>
-          -->
+            <img src="../assets/img/courses/smart_devices/4.png" class="img-fluid" alt="Responsive image">
+            <p class="h4 mt-0 text-center">
+              <small>
+                Fig. 4: Analog electronic schematic designed on LTSpice
+              </small>
+            </p>
+            <p class="h5 ml-2 text-justify">
+              By using this method, we are able to design filters and electronic treatments in order to retrieve only the useful information of the gas sensor.
+            </p>
+          </div>
+          <!-- Smart device communication -->
+          <div class="container">
+            <h5 class="text-primary text-justify"><strong>Smart device communication</strong></h5>
+            <p class="h5 ml-2 text-justify">
+              This part allows us to implement the complete smart device gathering a gas sensor and an Arduino board (cf Fig. 5). The goal is to send the sensor measurements over a LoRa network.<br>
+              We also add to weld the microchip on the board in order to get a functional LoRa module.
+            </p>
+            <img src="../assets/img/courses/smart_devices/5.png" class="img-fluid" alt="Responsive image">
+            <p class="h4 mt-0 text-center">
+              <small>
+                Fig. 5: Complete smart device base on Arduino board
+              </small>
+            </p>
+            <p class="h5 ml-2 text-justify">
+              By using this method, we are able to design filters and electronic treatments in order to retrieve only the useful information of the gas sensor.
+            </p>
+          </div>   
         </div>
       </div>
       <!-- Analytic part -->
       <div class="tab-pane" id="apart" role="tabpanel" aria-labelledby="apart-tab">
         <div class="container">
-          ...
+          <p class="h5 text-justify">
+            On a global point of view this module is very interesting regarding my background. As my formation dealt much with the high-level of IT systems, it is very rewarding to concentrate on low-level. Moreover, the ability to access to the micro and nano-electronics labs of INSA Toulouse is a real opportunity. Work on rare and expensive components including a scanning electron microscope (Jeol JSM-7800f) is a nice experience.<br>
+            Finally, this idea of building a smart device from beginning to the end will be a real asset as an engineer. I have now the possibility to debate, discuss and have a well-informed eye on a complete device development even if I was not able to totally understand every step of the process (chemical and electronical parts for instance). 
+          </p>
         </div>
       </div>
     </div>

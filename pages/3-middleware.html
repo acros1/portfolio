@@ -62,8 +62,7 @@
     <h1 class="text-primary text-center">Middleware and Service</h1>
     <h5 class="text-info text-center">Supervized by Thierry Monteil</h5>
     <h5>
-      As one of the biggest support for IoT is Internet this module brings acquaintances rules and technologies
-      is order to understand how every IoT devices communicates and act together.
+      As one of the biggest supports for IoT is Internet this module brings acquaintances rules and technologies in order to understand how every IoT devices communicates and act together.
     </h5>
   </div>
 
@@ -71,34 +70,56 @@
   <div class="container-lg">
     <ul class="nav nav-tabs justify-content-center" id="myTab" role="tablist">
       <li class="nav-item">
-        <a class="nav-link active" id="dpart-tab" data-toggle="tab" href="#home" role="tab" aria-controls="dpart"
+        <a class="nav-link active" id="dpart-tab" data-toggle="tab" href="#dpart" role="tab" aria-controls="dpart"
           aria-selected="true">Desriptive part</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" id="tpart-tab" data-toggle="tab" href="#profile" role="tab" aria-controls="tpart"
+        <a class="nav-link" id="tpart-tab" data-toggle="tab" href="#tpart" role="tab" aria-controls="tpart"
           aria-selected="false">Technical part</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" id="apart-tab" data-toggle="tab" href="#messages" role="tab" aria-controls="apart"
+        <a class="nav-link" id="apart-tab" data-toggle="tab" href="#apart" role="tab" aria-controls="apart"
           aria-selected="false">Analytic part</a>
       </li>
     </ul>
 
     <!-- Tab panes -->
-    <div class="tab-content">
+    <div class="tab-content mt-5">
+      <!-- Descriptive part -->
       <div class="tab-pane active" id="dpart" role="tabpanel" aria-labelledby="dpart-tab">
         <div class="container">
-          ...
+          <p class="h5 text-justify">
+            This module integrates three parts and gives an overview of IoT services architecture and possibilities.<br> 
+            The aim of the first part is to understand the service-oriented architecture, web services and underlying issues of distributed applications.<br>
+            The second part gives and overview of many IoT standards and highlight OneM2M.<br>
+            The last part brings acknowledgments on virtualization, cloud computing, autonomic computing and edge computing.<br>
+          </p>
         </div>
       </div>
+      <!-- Technical part -->
       <div class="tab-pane" id="tpart" role="tabpanel" aria-labelledby="tpart-tab">
+        <!-- Service oriented architecture -->
         <div class="container">
-          ...
+          <h5 class="text-primary text-justify"><strong>Service oriented architecture</strong></h5>
+          <p class="h5 ml-2 text-justify">
+            The concrete application of this part is a project based on INSA’s rooms automated management. The idea is to develop a web application which manage windows, doors, radiators and lights. We use OneM2M architecture to simulate sensors and actuators in order to retrieve their values through a Restful web services. According to the measurements, the service can trigger actuators to manage rooms.
+          </p>
         </div>
+        <!-- Cloud computing  -->
+        <div class="container">
+          <h5 class="text-primary text-justify"><strong>Cloud computing </strong></h5>
+          <p class="h5 ml-2 text-justify">
+            The application of the cloud part is during practical sessions. We discover basic functionalities that cloud services can provide. We study virtualization hosts, virtual machines and containers. We specifically use VirtualBox as virtualization tool, Docker as container tool and OpenStack as cloud service. We configure network topology and set up a web 2-tier application.  
+          </p>
+        </div>   
       </div>
+      <!-- Analytic part -->
       <div class="tab-pane" id="apart" role="tabpanel" aria-labelledby="apart-tab">
         <div class="container">
-          ...
+          <p class="h5 text-justify">
+            This course match very well with the Smart Device module. It gathers high-level competency of smart device. In this way it permits to understand how every IoT entities can communicate over a network to create a smart application, even if there are not the same type.<br>
+            Regarding Middleware and Service and Smart Device module, I feel now confident with the complete design on an IoT systems. I have skills regarding standards, technologies and services available in order to choose the best solution according to specifications.             
+          </p>
         </div>
       </div>
     </div>
